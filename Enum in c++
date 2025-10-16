@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+enum Colour {
+    Red = 1,
+    Green = 2,
+    Blue = 3
+};
+
+int main() {
+    int n;
+    cout << " ";
+    cin >> n;
+
+    if (n== Red) {
+        cout << "Red colour" << endl;
+    }
+    else if (n== Green) {
+        cout << "Green colour" << endl;
+    }
+    else if (n== Blue) {
+        cout << "Blue colour" << endl;
+    }
+    else {
+        cout << "Invalid !" << endl;
+    }
+
+    return 0;
+}
