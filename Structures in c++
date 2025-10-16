@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+struct student{
+    public:
+    int roll_no;
+    string name;
+    string schlr;
+    
+};
+int main() {
+    student s1;
+    s1.roll_no=45;
+    s1.name="Yash";
+    s1.schlr="False";
+    
+    cout<<"Roll no.: "<<s1.roll_no<<endl;
+    cout<<"Name: "<<s1.name<<endl;
+    cout<<"Schlr: "<<s1.schlr<<endl;
+    
+    return 0;
+}
